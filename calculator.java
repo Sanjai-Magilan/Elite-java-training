@@ -22,6 +22,7 @@ public class calculator {
         calc.add(num1, num2);
         calc.sub(num1, num2);
         calc.mul(num1, num2);
+        input.close();
     }
 }
 
