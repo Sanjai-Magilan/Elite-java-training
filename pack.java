@@ -1,5 +1,5 @@
 import Loops.test;
-public class mmm {
+public class pack {
     public static void main(String[] args){
         test.fact();
     }    
