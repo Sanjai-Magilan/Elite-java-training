@@ -1,4 +1,4 @@
-package Loops;
+package whileLoops;
 import java.util.*;
 
 public class palindrom {

@@ -1,4 +1,4 @@
-package Loops;
+package whileLoops;
 import java.util.*;
 public class armstrong {
     public static void main(String[] args){
