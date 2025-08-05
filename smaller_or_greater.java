@@ -6,12 +6,17 @@ public class smaller_or_greater {
         int num1 = input.nextInt();
         System.out.print("Enter second num: ");
         int num2 = input.nextInt();
-        if (num1>num2){
-            System.out.println("Number 1 is greater than Number 2");
-        } else if (num1<num2){
-            System.out.println("Number 2 is greater than Number 1");
-        } else {
-            System.out.println("Both numbers are equal");
+        System.out.print("Enter third num: ");
+        int num3 = input.nextInt();
+        if (num1>num2 && num1>num3){
+            System.out.println("Number 1 is greater");
+        } else if (num1<num2 && num2 > num3){
+            System.out.println("Number 2 is greater");
+        }
+        else if (num3>num1 && num3>num2) {
+            System.out.println("NUmber 3 is greater");
+        }else{
+            System.out.println("There are more than one greater number");
         }
         input.close();
     }    
