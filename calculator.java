@@ -14,7 +14,7 @@ public class calculator {
     }
     public void div(int a, int b){
         if (b != 0 && a != 0) {
-            double c = (double) a / b;
+            double c = a / b;
             System.out.println("the division of a and b is: " + c);
         } else {
             System.out.println("Division by zero is not allowed.");
