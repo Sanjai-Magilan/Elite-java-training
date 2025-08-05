@@ -1,5 +1,5 @@
 import java.util.*;
-public class odd_even {
+public class positive_or_negative {
     public static void main(String[] args){
         Scanner input= new Scanner(System.in);
         System.out.print("Enter a num: ");
