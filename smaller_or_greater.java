@@ -13,5 +13,6 @@ public class smaller_or_greater {
         } else {
             System.out.println("Both numbers are equal");
         }
+        input.close();
     }    
 }
