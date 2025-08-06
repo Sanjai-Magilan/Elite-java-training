@@ -1,3 +1,4 @@
+package BasicConcepts;
 import java.util.*;
 public class week_days {
     public static void main(String[] args){

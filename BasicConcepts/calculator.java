@@ -1,3 +1,4 @@
+package BasicConcepts;
 import java.util.Scanner;
 public class calculator {
     public void add(int a, int b) {
