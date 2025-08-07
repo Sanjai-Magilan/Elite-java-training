@@ -1,4 +1,5 @@
 package inheritance;
+
 class parent{
     parent(){
         System.out.println("i'm parent");
