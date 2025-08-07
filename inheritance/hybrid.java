@@ -29,9 +29,10 @@ public class hybrid {
         unknown jbo = new unknown();
         obj.SoCalledMethod();
         obj.function();
+        jbo.known();
         jbo.SoCalledMethod();
         jbo.fun();
-        jbo.known();
+        
     }
 }
 
