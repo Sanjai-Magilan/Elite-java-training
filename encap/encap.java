@@ -20,7 +20,7 @@ class data{
 public class encap {
     public static void main(String[] args){
         data info= new data();
-        info.setname("farfella");
+        info.setname("farfalla");
         info.setage(19);
         System.out.println(info.getname());
         System.out.println(info.getage());
