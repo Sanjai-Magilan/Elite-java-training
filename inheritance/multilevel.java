@@ -21,7 +21,7 @@ class grandson extends son{
     }
 }
 
-public class single {
+public class multilevel {
     public static void main(String[] args){
         grandson obj = new grandson();
         obj.gen0();
