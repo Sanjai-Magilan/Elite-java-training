@@ -11,7 +11,7 @@ class sum {
 }
 
 
-public class overraiding {
+public class overloading {
     public static void main(String[] args){
         sum obj=new sum();
         obj.add(1,1,1);
