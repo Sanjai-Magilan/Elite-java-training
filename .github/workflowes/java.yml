@@ -1,0 +1,38 @@
+name: Java CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 21
+      uses: actions/setup-java@v4
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+
+    - name: Compile Java files
+      run: |
+        mkdir -p out
+        find . -name "*.java" > sources.txt
+        javac -d out @sources.txt
+
+    - name: Run Main class (if exists)
+      run: |
+        if grep -q "public static void main" $(find . -name "*.java"); then
+          mainClass=$(grep -rl "public static void main" . | head -n1 | sed 's|./||' | sed 's|.java||' | tr '/' '.')
+          echo "Running main class: $mainClass"
+          java -cp out $mainClass
+        else
+          echo "No main method found. Skipping execution."
+        fi
