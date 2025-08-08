@@ -1,4 +1,4 @@
-package ForLoops;
+package Loops.ForLoops;
 import java.util.*;
 public class palindrom {
     public static void main(String[] args){

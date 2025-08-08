@@ -1,4 +1,4 @@
-package Abstraction;
+package OOP.Abstraction;
 abstract class sample{
     void add(int a,int b){
         System.out.println("Add = "+(a+b));

@@ -1,4 +1,4 @@
-package inheritance;
+package OOP.inheritance;
 
 class parent{
     parent(){

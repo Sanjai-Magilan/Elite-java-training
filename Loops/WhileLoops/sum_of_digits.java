@@ -1,18 +1,17 @@
-package WhileLoops;
+package Loops.WhileLoops;
 import java.util.*;
-
-public class palindrom {
+public class sum_of_digits{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
+        int a,b=0;
         System.out.print("Enter a num: ");
         int num = input.nextInt();
-        int a,b=0;
         while(num>0){
-            a = num%10;
-            b=b*10+a;
+            a=num%10;
+            b+=a;
             num/=10;
         }
-        System.out.println("palindrom of the given num is : "+b);
+        System.out.println("Sum of digits = "+b);
         input.close();
     }
 }

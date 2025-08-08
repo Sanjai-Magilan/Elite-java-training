@@ -1,4 +1,4 @@
-import WhileLoops.test;
+import Loops.WhileLoops.test;
 public class pack {
     public static void main(String[] args){
         test.fact();

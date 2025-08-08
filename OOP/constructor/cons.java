@@ -1,4 +1,4 @@
-package constructor;
+package OOP.constructor;
 class DoesNothing{
     DoesNothing() {
         System.out.println("Nothing");

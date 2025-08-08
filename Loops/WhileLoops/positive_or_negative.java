@@ -1,4 +1,4 @@
-package WhileLoops;
+package Loops.WhileLoops;
 import java.util.*;
 class positive_or_negative {
     public static void main(String[] args){

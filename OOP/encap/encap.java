@@ -1,4 +1,4 @@
-package encap;
+package OOP.encap;
 class data{
     private int age;
     private String name;

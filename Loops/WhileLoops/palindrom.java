@@ -1,16 +1,18 @@
-package WhileLoops;
+package Loops.WhileLoops;
 import java.util.*;
-public class fact {
+
+public class palindrom {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a num: ");
         int num = input.nextInt();
-        int fac=1;
+        int a,b=0;
         while(num>0){
-            fac*=num;
-            num--;
+            a = num%10;
+            b=b*10+a;
+            num/=10;
         }
-        System.out.println("Factorial = "+ fac);
+        System.out.println("palindrom of the given num is : "+b);
         input.close();
     }
 }

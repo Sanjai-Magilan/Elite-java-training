@@ -1,4 +1,4 @@
-package interfacee;
+package OOP.interfacee;
 interface daddy {
     void land();
 }
