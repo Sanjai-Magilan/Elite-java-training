@@ -1,17 +1,17 @@
 package inheritance;
-class base{
+class basee{
     void SoCalledMethod(){
         System.out.println("so called print statement");
     }
 }
 
-class branch8 extends base{
+class branch8 extends basee{
     void function(){
         System.out.println("branch 0 over over!");
     }
 }
 
-class branch9 extends base{
+class branch9 extends basee{
     void fun(){
         System.out.println("branch 1 over over!");
     }
