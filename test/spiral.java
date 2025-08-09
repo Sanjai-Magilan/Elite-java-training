@@ -13,17 +13,16 @@ public class spiral {
         input.close();
 
         for(int i=0;i<3;i++){
-            for(int j=0;j<3;j++){
-                if(i==0)
-                    System.out.print(arr[i][j]);
-                else if(i==1){
-                    j=1;
-                    System.out.print(arr[i][j+1]);
-                }
-                else if(i==2){
-                    System.out.print(" ");
-                }
-            }
+            System.out.print(arr[i][0]+" ");
+        }
+        for (int j=1;0<j;j--){
+            System.out.print(arr[2][j]+" ");
+        }
+        for(int i=2;i>=0;i--){
+            System.out.print(arr[i][2]+" ");
+        }
+        for(int j=0;j<2;j++){
+            System.out.print(arr[j][1]+" ");
         }
     }
 }
