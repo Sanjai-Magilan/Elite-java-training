@@ -1,13 +1,18 @@
 package test;
 import java.util.Scanner;
-public class spiral {
+
+public class SpiralDynamic {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter a 3x3 matrix :");
-        int row =3,col=3;
+        System.out.println("Enter your matrix size");
+        System.out.print("Enter row size : ");
+        int row = input.nextInt();
+        System.out.print("Enter column size : ");
+        int col = input.nextInt();
+        System.out.println("Enter the matrix :");
         int arr[][]=new int[row][col];
-        for(int i =0;i<3;i++){
-            for(int j=0;j<3;j++){
+        for(int i =0;i<row;i++){
+            for(int j=0;j<col;j++){
                 arr[i][j]=input.nextInt();
             }
         }
