@@ -25,5 +25,22 @@ public class lists {
             System.out.println(rollcall);
             System.out.println("Value for key 1: " + rollcall.get(1));
             System.out.println("Contains key 0? " + rollcall.containsKey(0));
+
+            Queue<String> queue = new LinkedList<>();
+
+            // Add elements (offer or add)
+            queue.offer("Sanjai");
+            queue.offer("Magilan");
+            queue.offer("Alice");
+
+            System.out.println("Queue: " + queue);
+            // Peek: check head without removing
+            System.out.println("Head of queue (peek): " + queue.peek());
+            // Poll: remove and return head
+            System.out.println("Removed (poll): " + queue.poll());
+            System.out.println("Queue after poll: " + queue);
+            // Remove: similar to poll but throws exception if empty
+            System.out.println("Removed (remove): " + queue.remove());
+            System.out.println("Final Queue: " + queue);
         }   
 }
